@@ -1,6 +1,6 @@
-#Deploying a Docker Image to AWS ECS using Fargate with Terraform
+# Deploying a Docker Image to AWS ECS using Fargate with Terraform
 
-#Getting Started
+# Getting Started
 This repository provides the Terraform configurations needed to deploy a Docker image to Amazon Elastic Container Service (ECS) using the Fargate launch type.
 The given Terraform code assumes that you have an existing VPC, subnets, security group and a load balancer with a target group setup for nginx.
 
