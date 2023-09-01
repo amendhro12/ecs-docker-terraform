@@ -1,0 +1,47 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ecr:GetDownloadUrlForLayer",
+                "ecr:BatchGetImage",
+                "ecr:BatchCheckLayerAvailability",
+                "ecs:RegisterTaskDefinition",
+                "ecs:DeregisterTaskDefinition",
+                "ecs:ListTaskDefinitions",
+                "ecs:ListTasks",
+                "ecs:DescribeTaskDefinition",
+                "ecs:DescribeTasks",
+                "ecs:DescribeServices",
+                "ecs:RunTask",
+                "ecs:StartTask",
+                "ecs:StopTask",
+                "ecs:CreateService",
+                "ecs:UpdateService",
+                "ecs:DeleteService",
+                "elasticloadbalancing:CreateLoadBalancer",
+                "elasticloadbalancing:DescribeLoadBalancers",
+                "elasticloadbalancing:DeleteLoadBalancer",
+                "elasticloadbalancing:RegisterTargets",
+                "elasticloadbalancing:DeregisterTargets",
+                "elasticloadbalancing:DescribeTargetGroups",
+                "elasticloadbalancing:DeleteTargetGroup",
+                "elasticloadbalancing:CreateListener",
+                "elasticloadbalancing:DeleteListener",
+                "elasticloadbalancing:DescribeListeners",
+                "iam:CreateRole",
+                "iam:DeleteRole",
+                "iam:AttachRolePolicy",
+                "iam:DetachRolePolicy",
+                "iam:PutRolePolicy",
+                "iam:PassRole",
+                "ec2:DescribeVpcs",
+                "ec2:DescribeSubnets",
+                "ec2:DescribeSecurityGroups"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+
